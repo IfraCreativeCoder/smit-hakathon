@@ -1,0 +1,126 @@
+/* Custom CSS for the Newsletter App website */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header & Hero Section */
+header {
+    background-color: #f8f9fa;
+}
+
+.nav-link.text-secondary {
+    font-weight: 500;
+}
+
+/* Features Section */
+.features-section {
+    background-color: #fff;
+}
+
+.features-section .position-relative {
+    position: relative;
+    padding: 50px 0;
+}
+
+.feature-card {
+    position: absolute;
+    width: 200px;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-left: 3px solid #28a745; /* Green border on the left side */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-left-top {
+    top: 5%;
+    left: 5%;
+}
+
+.feature-left-bottom {
+    bottom: 5%;
+    left: 5%;
+}
+
+.feature-right-top {
+    top: 5%;
+    right: 5%;
+}
+
+.feature-right-bottom {
+    bottom: 5%;
+    right: 5%;
+}
+
+.feature-bottom-left {
+    bottom: -10%;
+    left: 20%;
+}
+
+.feature-bottom-right {
+    bottom: -10%;
+    right: 20%;
+}
+
+/* Mid-Section CTA */
+.cta-section-mid {
+    background-color: #f8f9fa;
+}
+
+/* Testimonials Section - Yellow Background */
+.testimonials-section {
+    background-color: #fff6e8;
+}
+
+.testimonial-card-yellow {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 50px;
+    border-top: 5px solid #ffa500; /* Orange border on top */
+}
+
+.testimonial-card-yellow .quote-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 2rem;
+    color: #f0f0f0;
+}
+
+/* Happy Users Section */
+.user-testimonials-section {
+    background-color: #fff;
+}
+
+.card-border-orange {
+    border-top: 5px solid #ff7f00; /* Orange border on top */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.rounded-circle {
+    object-fit: cover;
+}
+
+/* Dark Footer CTA */
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+/* Footer Bottom */
+footer.bg-success {
+    background-color: #28a745 !important;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
